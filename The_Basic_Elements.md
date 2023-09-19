@@ -1,7 +1,6 @@
 ---
 date: 2016-03-09T19:56:50+01:00
 title: "The Basic Elements"
-weight: 25
 ---
 
 The 2i2c computing service is an implementation of the Jupyter Hub on

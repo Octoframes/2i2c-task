@@ -20,3 +20,4 @@ root: index
 chapters:
   - file: The_Basic_Elements
   - file: Teaching_with_Syzygy
+  - file: acknowledgements
