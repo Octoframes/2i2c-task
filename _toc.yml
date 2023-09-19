@@ -19,5 +19,5 @@ format: jb-book
 root: index
 chapters:
   - file: The_Basic_Elements
-  - file: Teaching_with_Syzygy
+  - file: Teaching_with_2i2c
   - file: acknowledgements

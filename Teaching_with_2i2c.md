@@ -1,6 +1,6 @@
 ---
 date: 2018-01-22T15:10:23+07:00
-title: "Teaching with Syzygy"
+title: "Teaching with 2i2c"
 ---
 
 JupyterHub can be a great resource for teaching and we we encourage people to
