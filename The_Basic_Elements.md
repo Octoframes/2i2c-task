@@ -4,7 +4,7 @@ title: "The Basic Elements"
 weight: 25
 ---
 
-The syzygy computing service is an implementation of the Jupyter Hub on
+The 2i2c computing service is an implementation of the Jupyter Hub on
 dedicated hardware accessible over the web. There is a great deal of information
 about Jupyter available at the [Jupyter project](https://jupyter.org/).
 
@@ -19,7 +19,7 @@ This chapter discusses all four.
 
 ## Using the Hub
 
-You get to the Hub by logging into the syzygy.ca service and clicking the button
+You get to the Hub by logging into the 2i2c.org service and clicking the button
 to "Start My Server."
 
 The Hub is a page that lists all your files and folders. It looks like this:

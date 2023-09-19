@@ -5,10 +5,10 @@ weight: 81
 ---
 
 JupyterHub can be a great resource for teaching and we we encourage people to
-use syzygy to help teach their classes, but you should keep the following
+use 2i2c to help teach their classes, but you should keep the following
 things in mind:
 
-  * syzygy.ca hosts are *shared services*. Asking a large group of students to
+  * 2i2c.org hosts are *shared services*. Asking a large group of students to
     do the same task simultaneously may exhaust the available resources and make
     your experience very slow. When machines are under extreme resource
     pressure, they may decide to shutdown processes that they don't have any
@@ -20,7 +20,7 @@ things in mind:
     we will try to resume the service as soon as possible, but this depends on
     lots of factors, and we can't always do it the same day.
 
-For these reasons we recommend against using syzygy for e.g. Timed exams and we
+For these reasons we recommend against using 2i2c for e.g. Timed exams and we
 urge you to be careful when planning submission dates for homework etc.
 
 ## Tools
@@ -39,13 +39,13 @@ To use it, you need to construct long and complicated URLs, but fortunately
 there is a handy [nbgitpull link
 generator](https://jupyterhub.github.io/nbgitpuller/link) to help you. The
 generator will ask for your JupyterHub server (use
-`https://uxxx.syzygy.ca/jupyter/` where `uxxx is the name of your university), a
+`https://uxxx.2i2c.org/jupyter/` where `uxxx is the name of your university), a
 github repository, and (optionally) file you would like to open once the
 repository has been cloned. After you fill all that information in, the
 generator will produce a long complicated link which might look like...
 
 ```
-https://uxxx.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fpimsmath%2Fpublic-notebooks&urlpath=tree%2Fpublic-notebooks%2Fpath%2Fto%2Ffile.ipynb&branch=master
+https://uxxx.2i2c.org/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fpimsmath%2Fpublic-notebooks&urlpath=tree%2Fpublic-notebooks%2Fpath%2Fto%2Ffile.ipynb&branch=master
 ```
 
 When the student visits the link for the first time the repository will be
@@ -71,19 +71,19 @@ string are...
 
 NBGitPuller is implemented as a notebook extension so doesn't depend on any
 specific kernel. It will happily clone out *any* repository, so you can use it
-with R, Python or any other kernel installed on your syzygy instance.
+with R, Python or any other kernel installed on your 2i2c instance.
 
 ### nbgitpuller service demonstration
 
-The following link demonstrates the nbgitpuller service on pims.syzygy.ca by
+The following link demonstrates the nbgitpuller service on pims.2i2c.org by
 cloning out a [simple python3 example notebook](https://github.com/pimsmath/public-notebooks/blob/master/nbpuller-example1.ipynb).
 To try the service out, simply click on the following link:
 
-  * [nbgitpuller example](https://pims.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fpimsmath%2Fpublic-notebooks&urlpath=tree%2Fpublic-notebooks%2Fnbpuller-example1.ipynb&branch=master) (You may want to open this in a new tab...)
+  * [nbgitpuller example](https://pims.2i2c.org/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fpimsmath%2Fpublic-notebooks&urlpath=tree%2Fpublic-notebooks%2Fnbpuller-example1.ipynb&branch=master) (You may want to open this in a new tab...)
 
 Clicking on the link should trigger the following actions
 
-  1. Take you to [pims.syzygy.ca](https://pims.syzygy.ca)
+  1. Take you to [pims.2i2c.org](https://pims.2i2c.org)
   2. Authenticate you via google (if you aren't already)
   3. Start your server (if it isn't already started)
   4. Clone out a copy of the notebook to
@@ -92,13 +92,13 @@ Clicking on the link should trigger the following actions
 
 The full URL used in the link is
 ```
-https://pims.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fpimsmath%2Fpublic-notebooks&urlpath=tree%2Fpublic-notebooks%2Fnbpuller-example1.ipynb&branch=master
+https://pims.2i2c.org/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fpimsmath%2Fpublic-notebooks&urlpath=tree%2Fpublic-notebooks%2Fnbpuller-example1.ipynb&branch=master
 ```
 
 Splitting this apart, we can see the pattern described above:
 
-  * **`https://pims.syzygy.ca/jupyter/hub/user-redirect/git-pull`** refers to the
-    syzygy instance (pims.syzygy.ca).
+  * **`https://pims.2i2c.org/jupyter/hub/user-redirect/git-pull`** refers to the
+    2i2cinstance (pims.2i2c.org).
   * **`https%3A%2F%2Fgithub.com%2Fpimsmath%2Fpublic-notebooks`** tells nbpuller which
     repository to use (`https://github.com/pimsmath/public-notebooks`).
   * **`branch=master`** specifies the master branch within the repository.
