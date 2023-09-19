@@ -18,4 +18,5 @@
 format: jb-book
 root: index
 chapters:
-  - file: foo
+  - file: The_Basic_Elements
+  - file: Teaching_with_Syzygy
